@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  hgispopt-base:
+    image: hypergiant-isp-topology-optimization
+    build:
+      context: .
+      dockerfile: Dockerfile

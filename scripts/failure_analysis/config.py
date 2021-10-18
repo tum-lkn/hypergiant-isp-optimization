@@ -1,0 +1,11 @@
+import constants
+
+BASE_PATH = "/home/sim/data/"
+FAILURE_DAY_SUFFIX = "DAY1"
+
+BASE_TOPO_PARAMS = {
+        constants.KEY_IP_LIGHTPATH_CAPACITY: 100,
+        constants.KEY_IP_LINK_UTILIZATION: 0.5
+}
+NUM_TRANSCEIVER = 100
+FIBER_CAPACITY = 100
