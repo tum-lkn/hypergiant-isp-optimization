@@ -6,8 +6,7 @@ Code for "On the Benefits of Joint Optimization of Reconfigurable CDN-ISP Infras
 
 - `docker`: Docker-related files 
 - `scripts`: Python scripts for experiments and evaluation
-- `src`: 
-- `tests`: Unittests 
+- `src`: Python source
 
 
 
@@ -102,8 +101,7 @@ The scripts are roughly grouped according to the structure of the evaluation in 
 compared.
 
 After running the optimizations, the scripts `aggregate_raw_solutions.py` and `get_reconfiguraton_metrics.py` help to 
-aggregate the data from the individual JSON files into a HDF5 file. These files are eventually loaded by the 
-plotting script in `evaluation/evaluation.py`.
+aggregate the data from the individual JSON files into a HDF5 file. 
 Note that also here some parameters were zeroed out for data privacy reasons.
 
 The folder `examples` contains some small scale examples and also exemplary data files to illustrate the structure.
